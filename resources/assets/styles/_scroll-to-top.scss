@@ -1,0 +1,61 @@
+.scroll-to-top {
+    position: fixed;
+    display: flex;
+    a {
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid $blue;
+        border-radius: 50%;
+        margin: auto;
+        transition: 0.2s;
+        color: #CF422F;
+        i {
+            display: block;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) { 
+    .scroll-to-top {
+        right: 5px;
+        bottom: 5px;
+        width: 40px;
+        height: 40px;
+        a {
+            padding: 10px;
+            font-size: 14px;
+        }
+        a:hover {
+            padding: 12px;
+        }
+    }
+}
+@include media-breakpoint-only(md) { 
+    .scroll-to-top {
+        right: 10px;
+        bottom: 10px;
+        width: 60px;
+        height: 60px;
+        a {
+            padding: 16px;
+            font-size: 22px;
+        }
+        a:hover {
+            padding: 18px;
+        }
+    }
+}
+@include media-breakpoint-up(lg) { 
+    .scroll-to-top {
+        right: 10px;
+        bottom: 10px;
+        width: 60px;
+        height: 60px;
+        a {
+            padding: 16px;
+            font-size: 22px;
+        }
+        a:hover {
+            padding: 18px;
+        }
+    }
+}

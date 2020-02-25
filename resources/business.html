@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./assets/images/fav-64.png" type="image/png" sizes="64x64">
+    <link rel='stylesheet' href='../dist/main.css' type='text/css' media='all' />
+    <title>The Kingdom of Cambodia</title>
+</head>
+<body class="wordpress-class" id="body">
+    <header class="container d-lg-flex justify-content-between header">
+        <figure class="d-flex m-0">
+            <a class="mr-3" href="./index.html">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./assets/images/cambodia-logo@3x.png" type="image/jpeg">
+                    <source media="(min-width: 768px)" srcset="./assets/images/cambodia-logo@2x.png" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="./assets/images/cambodia-logo@1x.png 1x, ./assets/images/cambodia-logo@2x.png 2x" type="image/jpeg">
+                    <img class="d-md-none1" src="./assets/images/cambodia-logo@1x.png" type="image/jpeg">
+                </picture>
+            </a>
+            <figcaption class="title">
+                <h2 class="site-title">The Kingdom of Cambodia</h2>
+                <p class="tagline">By the People, For the People</p>
+            </figcaption>
+        </figure>
+        <ul class="my-auto text-center list-inline d-none d-lg-block language">
+            <li class="list-inline-item">
+                <a href="#">
+                    <img srcset="./assets/images/kh@2x.jpg 2x" src="./assets/images/kh.jpg" />
+                    <span>KH</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#">
+                    <img srcset="./assets/images/en@2x.jpg 2x" src="./assets/images/en.jpg" />
+                    <span>EN</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <style type="text/css">
+    /*Extra small devices (portrait phones, less than 576px)*/
+    @media (max-width: 767.98px) {
+        .header { padding-top: 5px; padding-bottom: 5px; }
+        .header .title { text-align: center; margin-top: 6px; }
+        .header .title .site-title { font-size: 18px; margin-bottom: 5px; }
+        .header .title .tagline { font-size: 12px; margin-bottom: 5px; }
+    }
+
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .header { padding-top: 10px; padding-bottom: 10px; }
+        .header .title { text-align: center; margin-top: 10px; }
+        .header .title .site-title { font-size: 28px; margin-bottom: 5px; }
+        .header .title .tagline { font-size: 18px; margin-bottom: 5px; }
+    }
+
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .header { padding-top: 15px; padding-bottom: 15px; }
+        .header .title { text-align: center; margin-top: 20px; }
+        .header .title .site-title { font-size: 32px; margin-bottom: 5px; }
+        .header .title .tagline { font-size: 20px; margin-bottom: 5px; }
+    }
+
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <div class="container">
+            
+            <ul class="text-center list-inline navbar-brand my-auto ml-3 d-lg-none language">
+                <li class="list-inline-item">
+                    <a href="#">
+                        <img height="19px" src="./assets/images/kh.jpg" />
+                        <span>KH</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <img height="19px" src="./assets/images/en.jpg" />
+                        <span>EN</span>
+                    </a>
+                </li>
+            </ul>
+            <button class="mr-3 my-2 navbar-toggler navbar-toggler-right text-white nav-icon collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div></div>
+            </button>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html" aria-current="page">HOME</a></li>
+                    <li class="menu-item"><a href="cityzen.html">CITIZEN</a></li>
+                    <li class="menu-item current-menu-item"><a href="business.html">BUSINESS</a></li>
+                    <li class="menu-item"><a href="foreigner.html">FOREIGNER</a></li>
+                    <li class="menu-item"><a href="visitor.html">VISITOR</a></li>
+                    <li class="menu-item"><a href="our-kingdom.html">OUR KINGDOM</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style type="text/css">
+    /* custom theme options default for navbar */
+    .navbar { background-color: #f8f9fa; }
+    .navbar .navbar-toggler { background-color: #254187; }
+    /*desktop screen*/
+    @media (min-width: 992px) {
+        /*level 1*/
+        .navbar ul.menu > li > a { margin-right:30px; color: #343a40; font-size: 18px; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; }
+        /*level 1 on hover*/
+        .navbar ul.menu > li > a:hover { color: #343a40; background-color: rgba(0, 0, 0, 0.1); }
+        /*level 1 on active*/
+        .navbar ul.menu > li.current-menu-item > a,
+        .navbar ul.menu > li.current-post-ancestor > a,
+        .navbar ul.menu > li.current-menu-ancestor > a { background-color: #254187; color: #fff; }
+        /*level 1 dropdown arrow color*/
+        .navbar ul.menu > li.menu-item-has-children > a::after { border-top-color: rgba(0, 0, 0, 0.1); }
+        /*level 1 dropdown arrow color on active*/
+        .navbar ul.menu > li.menu-item-has-children.current-menu-item > a::after,
+        .navbar ul.menu > li.menu-item-has-children.current-menu-ancestor > a::after,
+        .navbar ul.menu > li.menu-item-has-children.current-post-ancestor > a::after { border-top-color: #fff; }
+        
+        /*nex level*/
+        .navbar ul.menu li ul { background-color: #F5F6FA; min-width: 220px; }
+        .navbar ul.menu li ul li a { color: #343a40; font-size: 17px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; }
+        /*next level on active */
+        .navbar ul.menu li ul li.current-menu-item > a,
+        .navbar ul.menu li ul li.current-menu-ancestor > a,
+        .navbar ul.menu li ul li.current-post-ancestor > a,
+        .navbar ul.menu li ul li a:hover { color: #343a40; background-color: rgba(0, 0, 0, 0.1); }
+        /*next level dropdown arrow color*/
+        .navbar ul.menu li ul li.menu-item-has-children > a::after { border-left-color: rgba(0, 0, 0, 0.1); }
+        /*next level dropdown arrow color on active*/
+        .navbar ul.menu li ul li.menu-item-has-children.current-menu-item > a::after,
+        .navbar ul.menu li ul li.menu-item-has-children.current-menu-ancestor > a::after,
+        .navbar ul.menu li ul li.menu-item-has-children.current-post-ancestor > a::after { border-left-color: rgba(0, 0, 0, 0.1); }
+    }
+    /* medium devices (tablets, 768px and up) */
+    @media (min-width: 0px) and (max-width: 991.98px) {
+        /*level 1*/
+        .navbar ul.menu > li > a { color: #343a40; font-size: 16px; padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right: 15px; }
+        /*level 1 on active*/
+        .navbar ul.menu li.current-menu-item > a,
+        .navbar ul.menu li.current-post-ancestor > a,
+        .navbar ul.menu li.current-menu-ancestor > a { background-color: transparent; color: #343a40; font-weight: bold;}
+        /*level 1 dropdown arrow color*/
+        .navbar ul.menu > li.menu-item-has-children > a::after { border-top-color: rgba(0, 0, 0, 0.1); }
+        /*level 1 dropdown arrow color on active*/
+        .navbar ul.menu > li.menu-item-has-children.current-menu-item > a::after,
+        .navbar ul.menu > li.menu-item-has-children.current-menu-ancestor > a::after,
+        .navbar ul.menu > li.menu-item-has-children.current-post-ancestor > a::after { border-top-color: rgba(0, 0, 0, 0.1); }
+ 
+        /*nex level*/
+        .navbar ul.menu li ul { background-color: #F5F6FA; min-width: 220px; }
+        .navbar ul.menu li ul li a { color: #343a40; font-size: 15px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; }
+        /*next level on active */
+        .navbar ul.menu li ul li.current-menu-item > a,
+        .navbar ul.menu li ul li.current-menu-ancestor > a,
+        .navbar ul.menu li ul li.current-post-ancestor > a,
+        .navbar ul.menu li ul li a:hover { color: #343a40; background-color: transparent; font-weight: bold; }
+        /*next level dropdown arrow color*/
+        .navbar ul.menu li ul li.menu-item-has-children > a::after { border-top-color: rgba(0, 0, 0, 0.1); }
+        /*next level dropdown arrow color on active*/
+        .navbar ul.menu li ul li.menu-item-has-children.current-menu-item > a::after,
+        .navbar ul.menu li ul li.menu-item-has-children.current-menu-ancestor > a::after,
+        .navbar ul.menu li ul li.menu-item-has-children.current-post-ancestor > a::after { border-top-color: rgba(0, 0, 0, 0.1); }
+    }
+    </style>
+    
+    <section class="list-unstyled main-slideshow slick-slideshow" data-slick='{"adaptiveHeight": false, "mobileFirst": true, "pauseOnDotsHover": true, "dots": true, "autoplay": true, "autoplaySpeed": 3000, "arrows": false, "cssEase": "ease-in-out"}'>
+       
+        <figure data-id="slide-01">
+            <img class="d-none" width="100%" src="./assets/images/content/slide-01.jpg" />
+            <div class="aspectratio-md-21-9 aspectratio-16-9">
+                <div class="img" style="background-image: url(./assets/images/content/slide-01.jpg);"></div>
+            </div>
+            <figcaption>
+               <a href="#">
+                   Cambodia National Portal is your guide to finding and using government services.
+               </a>
+            </figcaption>
+        </figure>
+    
+        <figure data-id="slide-02">
+            <img class="d-none" width="100%" src="./assets/images/content/slide-02.jpg" />
+            <div class="aspectratio-md-21-9 aspectratio-16-9">
+                <div class="img" style="background-image: url(./assets/images/content/slide-02.jpg);"></div>
+            </div>
+            <figcaption>
+                <a href="#">
+                    To provide useful information and services for citizen.  
+                </a>
+            </figcaption>
+        </figure>
+
+        <figure data-id="slide-03">
+            <img class="d-none" width="100%" src="./assets/images/content/slide-03.jpg" />
+            <div class="aspectratio-md-21-9 aspectratio-16-9">
+                <div class="img" style="background-image: url(./assets/images/content/slide-03.jpg);"></div>
+            </div>
+            <figcaption>
+                <a href="#">
+                    Providing useful information, services and experiences for visitors.  
+                </a>
+            </figcaption>
+        </figure>
+       
+    </section>
+    <style type="text/css">
+    /*Extra small devices (portrait phones, less than 576px)*/
+    @media (max-width: 767.98px) {
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-01] figcaption a { width: 55%; padding: 10px 20px; line-height: 20px; font-size: 13px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-02] figcaption a { width: 55%; padding: 10px 20px; line-height: 20px; font-size: 13px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-03] figcaption a { width: 55%; padding: 10px 20px; line-height: 20px; font-size: 13px; }
+    }
+    
+    /*Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-01] figcaption a { width: 40%; padding: 30px; line-height: 29px; font-size: 18px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-02] figcaption a { width: 40%; padding: 30px; line-height: 29px; font-size: 18px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-03] figcaption a { width: 40%; padding: 30px; line-height: 29px; font-size: 18px; }
+    }
+    
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-01] figcaption a { width: 27%; padding: 50px; line-height: 45px; font-size: 22px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-02] figcaption a { width: 27%; padding: 30px; line-height: 45px; font-size: 22px; }
+        .main-slideshow .slick-list .slick-track figure[data-id=slide-03] figcaption a { width: 27%; padding: 30px; line-height: 45px; font-size: 22px; }
+    }
+    </style>
+
+    <!-- SEARCH AREA -->
+    <section class="container">
+        <div class="form-search">
+            <form action="search.html" method="POST">
+                <div class="input-field input-group">
+                    <input type="search" class="text-field form-control" placeholder="Search All Government" />
+                    <div class="input-group-append">
+                        <button type="submit" class="submit-field btn btn-primary"><span class="d-none d-md-inline">Search</span> <i class="icofont-search"></i></button>
+                    </div>
+                </div>
+            </form>
+            <ul>
+                <li>
+                    <label>Popular Keywords:</label>
+                    <ul>
+                        <li><a href="service-detail.html">driver's license</a></li>
+                        <li><a href="service-detail.html">free health service</a></li>
+                        <li><a href="service-detail.html">birth registration</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <main>
+        <header class="block-heading text-center">
+            <h4>
+                <a href="#">
+                    TOPICS
+                </a>
+            </h4>
+        </header>
+        <div class="container-fluid">
+            <div class="block-topic">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/health-icon.png" alt="Health">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Health</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/legal-meter-icon.png" alt="Legal Matters">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Legal Matters</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/education-icon.png" alt="Transportation">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Transportation</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/transport-icon.png" alt="Education">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Education</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/imigration-icon.png" alt="Immigration">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Immigration</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/family-icon.png" alt="Intellectual Property">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Intellectual Property</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/register-icon.png" alt="Family and Children">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Family and Children</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/intellectual-icon.png" alt="Legal Matters">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Legal Matters</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/legal-meter-icon.png" alt="Registering a Business">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Registering a Business</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/obtaining-icon.png" alt="Obtaining Electricity">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Obtaining Electricity</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/import-icon.png" alt="Import & Export">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Import & Export</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                        <td>
+                            <article>
+                                <figure class="d-lg-flex">
+                                    <a href="#">
+                                        <img src="./assets/images/content/public-icon.png" alt="Public Procurement">
+                                    </a>
+                                    <figcaption>
+                                        <a href="#">
+                                            <h5>Public Procurement</h5>
+                                        </a>
+                                        <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </td>
+                    </tr>           
+                </table>    
+            </div>
+        </div>
+        <section class="block-i-want-to d-md-flex justify-content-around">
+            
+                <h4 class="block-title"><b>I WANT TO ...</b></h4>
+                <ul>
+                    <li><a href="#">REGISTER A BUSINESS</a></li>
+                    <li><a href="#">IMPORT GOODS</a></li>
+                    <li><a href="#">OBTAIN ELECTRICITY AND<br/>WATER SUPPLY</a></li>
+                    <li><a href="#">LOOK FOR ASSISTANT</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">INVEST IN CAMBODIA</a></li>
+                    <li><a href="#">EXPORT GOODS</a></li>
+                    <li><a href="#">PROVIDE A FEEDBACK</a></li>
+                </ul>
+             
+        </section>
+    </main>
+    <footer>
+        <div id="servay" class="servay" data='{"type":"post", "id":168, "auth": "c4ca4238a0b923820dcc509a6f75849b"}'>
+            <div id="servay-useful" class="useful">
+                <ul >
+                    <li>
+                        Is this page useful?
+                    </li>
+                    <li>
+                        <a onclick="servay.useful(1)" href="javascript:void(0);">Yes</a>
+                    </li>
+                    <li>
+                        <a onclick="servay.useful(0)" href="javascript:void(0);">No</a>
+                    </li>  
+                </ul>
+            </div>
+
+            <div id="servay-submit" class="container submit py-3">
+                <form>
+                    <label for="servay-feedback">Tell us what we can do to improve the article</label>
+                    <textarea class="form-control mb-3 rounded-0" id="servay-feedback" placeholder=""></textarea>
+                    <button onclick="servay.submit(this.previousElementSibling.value)" type="button" class="btn btn-light rounded-0">Submit</button>
+                </form>
+            </div>
+
+            <div id="servay-thank" class="container thank">
+                <div class="alert fade show m-0" role="alert">
+                    <strong>Thanks!</strong> Your feedback will help us improve the support experience.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="feedback d-none d-sm-block">
+            <div class="dialog-action">
+                <button class="btn btn-sm btn-primary rounded-0" data-toggle="modal" data-target="#feedback-modal-center">Site Feedback</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="feedback-modal-center" tabindex="-1" role="dialog" aria-labelledby="feedback-modal-center-title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="./assets/images/fav-32.png" class="mr-2" alt="">
+                            <h5 class="modal-title" id="feedback-modal-center-title">The Kingdom of Cambodia</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body feedback-body">
+                            <form id="feedback-form" action="" method="GET">
+                                <div class="">
+                                    <article id="article-1" class="active">
+                                        <h5>How satisfied are you with the Cambodia Support website?</h5>
+                                        <input type="range" step="1" value="0" name="star-rating" id="star-rating" />
+                                        <div class="star text-center" data-reference="star-rating" data-star="5" data-font="&#9733;"></div>
+                                        <div class="d-flex justify-content-around mb-6" for="feedback-range"><small>Very Dissatisfied</small><small>Very Satisfied</small></div>
+                                        <div class="text-center mb-3">
+                                            <a onClick="feedback.tabCheckStar(this)" href="javascript:void(0)" data-current="article-1" data-next="article-2" class="btn btn-primary px-3">OK</a>
+                                            <div class="invalid-feedback">Please provide a valid star.</div>
+                                        </div>
+                                        <small>Step 1 of 3</small>
+                                    </article>
+                                    <article id="article-2" class="hide">
+                                        <h5>Is there anything we can do to improve? Let us know!</h5>
+                                        <textarea name="textarea" class="form-control mb-6" id="exampleFormControlTextarea1" rows="3" maxlength="1000" placeholder="Type your feedback here (1000 chars max)"></textarea>
+                                        <div class="text-center mb-3">
+                                            <a onClick="feedback.tabUncheck(this)" href="javascript:void(0)" data-current="article-2" data-next="article-3" class="btn btn-primary px-3">OK</a>
+                                        </div>
+                                        <small>Step 2 of 3</small>
+                                    </article>
+                                    <article id="article-3" class="hide">
+                                        <h5>Did you find the information you were looking for?</h5>
+                                        <div class="d-flex justify-content-around mb-6 w-50 mx-auto">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="information_radio_stacked-1" name="information_radio_stacked">
+                                                <label class="custom-control-label" for="information_radio_stacked-1">YES</label>
+                                            </div>
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="information_radio_stacked-2" name="information_radio_stacked">
+                                                <label class="custom-control-label" for="information_radio_stacked-2">NO</label>
+                                            </div>
+                                        </div>
+                                        <div class="text-center mb-3">
+                                            <button onClick="feedback.submit(this)" href="javascript:void(0)" data-validation='{"type":"require","input_name":"information_radio_stacked"}' data-current="article-3" data-next="article-4" type="button" class="btn btn-primary px-3">SUBMIT</button>
+                                            <div class="invalid-feedback">Please provide a valid information.</div>
+                                        </div>
+                                        <small>Step 3 of 3</small>
+                                    </article>
+                                    <article id="article-4" class="hide">
+                                        <p class="text-center">
+                                            Thanks for taking this survey. Your participation is helpful to us and we take your feedback seriously.
+                                        </p>
+                                        <div class="text-center mb-3">
+                                            <button data-dismiss="modal" type="button" class="btn btn-secondary px-3">close</button>
+                                        </div>
+                                    </article>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <nav class="d-md-flex justify-content-between"> 
+                <ul class="d-flex justify-content-center social">
+                    <li>Follow Us</li>
+                    <li>
+                        <a href="#"><i class="icofont-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icofont-youtube-play"></i></a>
+                    </li>
+                </ul>
+                <ul class="d-flex justify-content-center footer-nabar">
+                    <li>
+                        <a href="contact-us.html">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy.html">PRIVACY POLICY</a>
+                    </li>
+                    <li>
+                        <a href="term-of-use.html">TERM OF USE</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container-fluid text-center">
+            <small class="copyright">&copy; Copyright 2019 Government of Cambodia | All Rights Reserved.</small>
+        </div>
+    </footer>
+    <div class="scroll-to-top">
+        <a href="#body"><i class="icofont-arrow-up"></i></i></a>
+    </div>
+    <script type="text/javascript" src="../dist/main.js"></script>
+</body>
+</html>

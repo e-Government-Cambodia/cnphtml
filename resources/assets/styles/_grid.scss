@@ -1,0 +1,111 @@
+.grid {
+    .grid-item {
+        figure {
+            margin: 0px;
+            position: relative;
+            figcaption {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.5);
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                text-align: center;
+                * {
+                    color: #fff;
+                    display: block;
+                }
+            }
+            figcaption.block {
+                position: initial;
+            }
+        }
+    }
+}
+.grid.light {
+    .grid-item {
+        figure {
+            figcaption {
+                bottom: 0px;
+                background-color: rgba(255, 255, 255, 0.5);;
+                * {
+                    color: $gray-800;
+                }
+            }
+        }
+    }
+}
+.grid.spacing {
+    .grid-item {
+        figure {
+            .img {
+                border-right: 5px solid #fff;
+                border-bottom: 5px solid #fff;
+            }
+            figcaption {
+                bottom: 5px;
+                right: 5px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) { 
+    .grid {
+        margin-bottom: 15px;
+        .grid-item {
+            figure {
+                figcaption {
+                    padding: 5px 0px;
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .grid.m-b {
+        .grid-item {
+            margin-bottom: 15px;
+        }
+    }
+}
+@include media-breakpoint-only(md) { 
+    .grid {
+        margin-bottom: 20px;
+        .grid-item {
+            figure {
+                figcaption {
+                    padding: 8px 0px;
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .grid.m-b {
+        .grid-item {
+            margin-bottom: 20px;
+        }
+    }
+}
+@include media-breakpoint-up(lg) { 
+    .grid {
+        margin-bottom: 30px;
+        .grid-item {
+            figure {
+                figcaption {
+                    padding: 10px 0px;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .grid.m-b {
+        .grid-item {
+            margin-bottom: 30px;
+        }
+    }
+}
