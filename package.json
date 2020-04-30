@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mark.js": "^8.11.1",
     "masonry-layout": "^4.2.2",
     "popper.js": "^1.16.1",
