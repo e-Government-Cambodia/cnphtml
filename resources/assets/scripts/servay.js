@@ -49,8 +49,8 @@ class servay {
         //     }
         // })
         
-        document.querySelector("#servay-submit").remove();
         console.log(this.init)
+        document.querySelector("#servay-submit").remove()
 
     }
     get init() {

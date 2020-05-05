@@ -35,7 +35,7 @@ class star {
         for(let element of args.parentElement.querySelectorAll('li')){
             element.removeAttribute('class')
         }
-        this.star_select = true
+        this.star_select = args.dataset.star
     }
     get star_select() {
         return this._star_select;
