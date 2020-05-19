@@ -1,3 +1,10 @@
+html[lang=km] {
+    .service-detail {
+        ol {
+            list-style-type: khmer;
+        }
+    }
+}
 .service-detail {
     .list-group {
         background-color: $gray-default;
@@ -41,10 +48,8 @@
                 color: $blue;
             }
         }
-        ul {
-            padding: 0px;
-            list-style-position: inside;
-            list-style-type: square;
+        ul, ol, dl {
+            padding-left: 20px;
         }
         .next-section {
             border-bottom: 1px solid $gray-200;
@@ -115,7 +120,7 @@
                     font-size: 15px;
                 }
             }
-            ul {
+            ul, ol, dl {
                 line-height: 30px;
             }
             .download {
@@ -142,7 +147,7 @@
                     font-size: 16px;
                 }
             }
-            ul {
+            ul, ol, dl {
                 line-height: 30px;
             }
             .download {
@@ -169,7 +174,7 @@
                     font-size: 18px;
                 }
             }
-            ul {
+            ul, ol, dl {
                 line-height: 35px;
             }
             .download {
