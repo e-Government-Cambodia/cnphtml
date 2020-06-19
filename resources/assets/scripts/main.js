@@ -10,6 +10,8 @@ import 'masonry-layout/masonry';
 
 import './sticky-scroll';
 
+import './tab';
+
 import servay from './servay';
 
 import match from './match';
