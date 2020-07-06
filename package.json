@@ -27,7 +27,6 @@
     "css-loader": "^3.5.1",
     "fibers": "^4.0.2",
     "file-loader": "^5.1.0",
-    "mark.js": "^8.11.1",
     "mini-css-extract-plugin": "^0.8.2",
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
@@ -42,6 +41,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "mark.js": "^8.11.1",
     "masonry-layout": "^4.2.2",
     "popper.js": "^1.16.1",
     "slick-carousel": "^1.8.1"
