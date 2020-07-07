@@ -25,6 +25,56 @@
                 }
             }
         }
+
+        .slick-arrow {
+
+            -webkit-appearance: none;
+            border: none;
+            padding: 10px;
+            font-size: 0;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            &:before {
+                
+                color: #fff;
+                display: block;
+                font-size: 16px;
+                font-family: IcoFont!important;
+                font-style: normal;
+                font-weight: 400;
+                font-variant: normal;
+                text-transform: none;
+                white-space: nowrap;
+                word-wrap: normal;
+                direction: ltr;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+
+            }
+
+        }
+        .slick-prev {
+            right: 10%;
+
+            &::before {
+                content: '\eab8';
+            }
+            
+        }
+        .slick-next {
+            left: 10%;
+
+            &::before {
+                content: '\eab5';
+            }
+        }
+
     }
     ul.slick-dots {
         position: absolute;
