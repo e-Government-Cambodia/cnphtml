@@ -9189,6 +9189,12 @@ html {
   font-weight: 300;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Moul';
+  src: url(fonts/fc76d9be66cf44cebb70bae887c6adb4.ttf);
+  font-weight: 300;
+  font-style: normal; }
+
 /*! 
 * @package IcoFont 
 * @version 1.0.1 
@@ -15672,6 +15678,8 @@ html {
 
 .header .title {
   text-align: center; }
+  .header .title .site-title {
+    font-family: 'Moul', Open Sans; }
 
 .header ul.language li a {
   display: block;
