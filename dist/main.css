@@ -16208,8 +16208,9 @@ html {
         margin: 0px; }
         .block-topic article figure > a {
           display: block;
-          margin-bottom: 10px;
           margin-right: 0px; }
+        .block-topic article figure img {
+          margin-bottom: 5px; }
         .block-topic article figure figcaption a * {
           font-size: 12px;
           margin: 0px; }
