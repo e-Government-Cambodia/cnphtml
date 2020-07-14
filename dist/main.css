@@ -16041,8 +16041,7 @@ html {
   .form-search.without-slideshow {
     margin-top: 25px; }
   .form-search {
-    margin-top: -25px;
-    margin-bottom: 15px; }
+    margin: 15px 0; }
     .form-search .input-field {
       padding: 5px; }
       .form-search .input-field .text-field {
