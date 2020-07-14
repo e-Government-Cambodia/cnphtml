@@ -15872,8 +15872,7 @@ html {
       .main-slideshow .slick-list .slick-track figure figcaption a {
         background: rgba(0, 0, 0, 0.5);
         color: #fff;
-        margin: auto 0px;
-        margin-left: 60px; }
+        margin: auto 0px; }
   .main-slideshow .slick-arrow {
     background: none;
     -moz-appearance: none;
