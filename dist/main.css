@@ -15872,8 +15872,12 @@ html {
       .main-slideshow .slick-list .slick-track figure figcaption a {
         background: rgba(0, 0, 0, 0.5);
         color: #fff;
-        margin: auto 0px; }
-  .main-slideshow .slick-list .slick-arrow {
+        margin: auto 0px;
+        margin-left: 60px; }
+  .main-slideshow .slick-arrow {
+    background: none;
+    -moz-appearance: none;
+         appearance: none;
     -webkit-appearance: none;
     border: none;
     padding: 10px;
@@ -15884,11 +15888,12 @@ html {
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-    .main-slideshow .slick-list .slick-arrow:before {
+    transform: translateY(-50%);
+    z-index: 2; }
+    .main-slideshow .slick-arrow:before {
       color: #fff;
       display: block;
-      font-size: 16px;
+      font-size: 30px;
       font-family: IcoFont !important;
       font-style: normal;
       font-weight: 400;
@@ -15899,14 +15904,14 @@ html {
       direction: ltr;
       line-height: 1;
       -webkit-font-smoothing: antialiased; }
-  .main-slideshow .slick-list .slick-prev {
-    right: 10%; }
-    .main-slideshow .slick-list .slick-prev::before {
-      content: '\eab8'; }
-  .main-slideshow .slick-list .slick-next {
-    left: 10%; }
-    .main-slideshow .slick-list .slick-next::before {
+  .main-slideshow .slick-prev {
+    left: 1%; }
+    .main-slideshow .slick-prev::before {
       content: '\eab5'; }
+  .main-slideshow .slick-next {
+    right: 1%; }
+    .main-slideshow .slick-next::before {
+      content: '\eab8'; }
   .main-slideshow ul.slick-dots {
     position: absolute;
     margin: 0px;
